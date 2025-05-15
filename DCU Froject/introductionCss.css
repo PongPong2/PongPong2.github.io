@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "titleFont";
+    src: url(./fonts/제목글씨체.ttf) format("truetype");
+}
+@font-face {
+    font-family: "allFont";
+    src: url(./fonts/내용글씨체.otf) format("truetype");
+}
+
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 155px;
+   background-color:rgb(230, 255, 255);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   z-index: 999;
+}
+  
+.title {
+   font-family: "titleFont";
+   text-align: center;
+   font-size: 24px;
+   color: #91B6DE;
+}
+  
+#title {
+    font-family: "Paperlogy-9Black", sans-serif;
+    font-size: 36px;
+}
+  
+#title h1:hover {
+    color: rgb(48, 196, 229);
+    transition: color 0.3s;
+}
+  
+.navmenu {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+  
+.navmenu a {
+    font-family: "allFont";
+    font-size: 15px;
+    color: #91B6DE;
+    text-decoration: none;
+}
+  
+.navmenu a:hover {
+    color: rgb(48, 196, 229);
+    font-weight: 700;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 200px;
+    margin-bottom: 60px;
+    font-family: "allFont";
+}
+
+.profile{
+    display: flex;
+}
+.profile img{
+    text-align: center;
+}
+.profile h1,p{
+    text-align: right;
+}
+
+footer {
+    font-family: "allFont";
+    color: #91B6DE;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
