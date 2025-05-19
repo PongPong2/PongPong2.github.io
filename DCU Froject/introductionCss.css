@@ -69,7 +69,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; 
     margin-bottom: 200px;
+    text-align: center;
 }
 .profileContainer img{
     margin-right: 100px;
@@ -107,4 +109,54 @@ footer {
     text-align: center;
     font-size: 16px;
     position: relative;
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .navmenu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profileContainer {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .profileContainer img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .allContainer {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .item h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .navmenu a {
+        font-size: 13px;
+    }
+
+    main {
+        padding-top: 180px;
+    }
+
+    .item {
+        padding: 20px;
+    }
 }
