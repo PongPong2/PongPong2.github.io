@@ -74,6 +74,7 @@ main {
 }
 .workItd h1{
     text-align: center;
+    text-decoration: underline;
 }
 .workItd p{
     text-align: center;
