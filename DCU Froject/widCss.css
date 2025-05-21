@@ -74,7 +74,6 @@ main {
 }
 .workItd h1{
     text-align: center;
-    text-decoration: underline;
 }
 .workItd p{
     text-align: center;
@@ -82,6 +81,12 @@ main {
 .workItd img{
     max-width: 100%;
     height: auto;
+}
+.H1{
+    width: auto;
+    height: auto;
+    border: 3px solid #91B6DE;
+    border-radius: 20px;
 }
 
 footer {
