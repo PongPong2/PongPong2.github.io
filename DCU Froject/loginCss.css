@@ -6,11 +6,21 @@
     font-family: "allFont";
     src: url(./fonts/내용글씨체.otf) format("truetype");
 }
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "allFont";
+    font-size: 100px;
+    height: 300px;
+    color: whitesmoke;
+}
 .container{
     position: fixed;       
     bottom: 0;             
     left: 0;               
-    width: 100%;           
+    width: 97%;           
     color: white;
     text-align: center;
     padding: 20px 20px;
