@@ -70,7 +70,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
-    margin-bottom: 200px;
+    margin-bottom: 230px;
     text-align: center;
 }
 .profileContainer img{
@@ -81,6 +81,9 @@ main {
 }
 .profile{
     color: #91B6DE;
+}
+.profile img{
+    margin: 0 10px;
 }
 
 .allContainer {
@@ -95,7 +98,7 @@ main {
     padding: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
     border: 2px solid #91B6DE;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 .item h3 {
     font-size: 25px;

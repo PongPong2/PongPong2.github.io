@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "titleFont";
+    src: url(./fonts/제목글씨체.ttf) format("truetype");
+}
+@font-face {
+    font-family: "allFont";
+    src: url(./fonts/내용글씨체.otf) format("truetype");
+}
+.container{
+    position: fixed;       
+    bottom: 0;             
+    left: 0;               
+    width: 100%;           
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 16px;
+    z-index: 1000;        
+  }
+  @media (max-width: 600px) {
+    .footer-fixed {
+      font-size: 14px;
+      padding: 12px 15px;
+    }
+  }
+
+.login_up{
+    font-family: 'allFont';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.input{
+    border: 2px solid #91B6DE;
+    border-radius: 10px;
+}
+
+input[type="submit"],
+button[type="submit"]{
+    background-color: #275efe;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.44s ease;
+    box-shadow: 0 2px 8px -1px rgba(39, 94, 254, 0.32);
+    border-radius: 10px;
+}
+input[type="submit"]:hover,
+button[type="submit"]:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 20px -2px rgba(39, 94, 254, 0.5);
+}
+
+.dogDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dogDiv img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.dogDiv img:hover{
+    opacity: 0.5;
+}
+
+
+
+
