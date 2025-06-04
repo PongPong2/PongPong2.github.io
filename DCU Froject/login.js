@@ -7,7 +7,7 @@ function login(event){
         alert("입력하세요.");
     }
     else if(INPUT.value === "서울"){
-        window.location.href = 'http://127.0.0.1:5501/DCU%20Froject/index.html';
+        window.location.href = 'http://127.0.0.1:5501/DCU%20Froject/home.html';
     }
     else{
         alert("틀렸습니다.");
